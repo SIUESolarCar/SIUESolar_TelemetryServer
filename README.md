@@ -12,3 +12,6 @@ This container runs our interface Grafana that is used by the team to view all o
 
 ## The Auxiliary Data Collection - Python Script
 This container running a Python script that is intended to input outside data into our database. This is often weather data.
+
+# Setup Process
+(Work in progress)
