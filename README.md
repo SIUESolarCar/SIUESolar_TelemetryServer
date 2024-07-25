@@ -14,4 +14,23 @@ This container runs our interface Grafana that is used by the team to view all o
 This container running a Python script that is intended to input outside data into our database. This is often weather data.
 
 # Setup Process
-(Work in progress)
+
+1.  Create a file called `.evn` in your project directory and paste the following code in:
+
+    ``` 
+    GRAFANA_USERNAME=username
+    GRAFANA_PASSWORD=password
+    INFLUXDB_USERNAME=username
+    INFLUXDB_PASSWORD=password
+    ```
+
+2. Modify the `.evn` file's usernames and passwords. 
+
+    > [!CAUTION]
+    > Use secure passwords this can be access on the world wide web. Be Smart
+
+3. Run the Docker Compose in the terminal.
+
+    ```
+    $ docker compose up
+    ```
