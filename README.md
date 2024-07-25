@@ -26,8 +26,8 @@ This container running a Python script that is intended to input outside data in
 
 2. Modify the `.evn` file's usernames and passwords. 
 
-    > [!CAUTION]
-    > Use secure passwords this can be access on the world wide web. Be Smart
+> [!CAUTION]
+> Use secure passwords this can be access on the world wide web. Be Smart
 
 3. Run the Docker Compose in the terminal.
 
